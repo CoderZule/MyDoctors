@@ -10,6 +10,11 @@
 
     <title>{{ config('app.name', 'MyDoctors') }}</title>
 
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ secure_asset('images/favicon.png') }}" type="image/x-icon">
+
+
     <!-- Scripts -->
     <script src="{{secure_asset('js/app.js') }}" defer></script>
 
