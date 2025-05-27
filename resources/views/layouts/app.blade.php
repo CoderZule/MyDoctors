@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'MyDoctors') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{secure_asset('js/app.js') }}" defer></script>
 
     <!--for datepicker-->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{secure_asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{secure_asset('template/dist/css/theme.min.css')}}">
 
 
