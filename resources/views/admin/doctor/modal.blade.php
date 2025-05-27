@@ -8,7 +8,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p><img src="{{asset('images')}}/{{$user->image}}" class="table-user-thumb" alt="" width="200"></p>
+                <p><img src="{{secure_asset('images')}}/{{$user->image}}" class="table-user-thumb" alt="" width="200"></p>
                 <p class="badge badge-pill badge-dark">Role:{{$user->role->name}}</p>
                 <p>Name:{{$user->gender}}</p>
                 <p>Name:{{$user->name}}</p>

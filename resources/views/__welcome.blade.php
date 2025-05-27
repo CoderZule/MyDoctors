@@ -57,7 +57,7 @@
 
                         <tr>
                             <th scope="row">1</th>
-                            <td><img src="{{asset('images')}}/{{$doctor->doctor->image}}" width="80" style="border-radius: 50%;">
+                            <td><img src="{{secure_asset('images')}}/{{$doctor->doctor->image}}" width="80" style="border-radius: 50%;">
                             </td>
                             <td>{{$doctor->doctor->name}}</td>
                             <td>{{$doctor->doctor->department}}</td>

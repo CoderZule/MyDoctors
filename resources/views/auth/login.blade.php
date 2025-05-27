@@ -5,7 +5,7 @@
     <div class="row ">
 
         <div class="col-sm-6">
-            <img src="{{asset('/images/login_reg.jpg')}}" class="img-fluid" style="  display: block;
+            <img src="{{secure_asset('/images/login_reg.jpg')}}" class="img-fluid" style="  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;

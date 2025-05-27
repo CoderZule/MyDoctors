@@ -6,7 +6,7 @@
     <div class="row">
 
         <div class="col-sm-6">
-            <img src="{{asset('images\vector.jpg')}}" class="img-fluid" style=" width:100%;">
+            <img src="{{secure_asset('images\vector.jpg')}}" class="img-fluid" style=" width:100%;">
 
         </div>
 
